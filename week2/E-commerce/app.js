@@ -1,4 +1,4 @@
-/*v. app.js - Main application
+/* app.js - Main application
                         import { 
                           getAllProducts, 
                           searchProducts, 
