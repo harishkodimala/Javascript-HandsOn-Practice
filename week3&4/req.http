@@ -1,0 +1,49 @@
+GET http://localhost:4000/product-router/products
+
+### create product
+POST http://localhost:4000/product-router/products
+Content-Type: application/json
+
+{
+    "productName":"remote",
+    "price":200,
+    "brand":"sony"
+}
+
+###update product
+
+PUT http://127.0.0.1:4000/product-router/products/69806c0c23c8cff1745795e5
+
+
+
+
+
+###get product by id
+GET http://localhost:4000/product-router/products/69806c0c23c8cff1745795e5
+
+
+###delete product by id
+DELETE http://localhost:4000/product-router/products/
+
+
+
+###get users
+GET http://localhost:4000/user-router/users
+
+###create user
+POST http://localhost:4000/user-router/users
+Content-Type: application/json
+
+{
+    "name":"vikas",
+    "email":"vikas@gmail.com",
+    "password":"vikas"
+    
+}
+
+###update cart
+PUT http://localhost:4000/user-router/users/user-id/698189e1e1f336f95af2ee94/product-id/6981a8b5f35f482656901ef5
+
+
+###get user by id
+GET http://localhost:4000/user-router/users/698189e1e1f336f95af2ee94

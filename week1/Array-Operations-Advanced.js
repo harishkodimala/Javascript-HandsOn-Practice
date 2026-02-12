@@ -94,8 +94,17 @@ let res=students.filter(studentObj=>studentObj.marks>=40)
 console.log(res)
 
 //map
-let res1=students.map(studentObj=>{grade:studentObj.marks>=90?'A':studentObj.marks>=75?'B':studentObj.marks>=60?'C':'D'})
-console.log(res1)
+let res1 = students.map(studentObj => {
+  return {
+    grade: studentObj.marks >= 90 ? 'A'
+         : studentObj.marks >= 75 ? 'B'
+         : studentObj.marks >= 60 ? 'C'
+         : 'D'
+  };
+});
+
+console.log(res1);
+
 
 //reduce
 let res2=students.reduce((acc,elementObj)=>acc+elementObj.marks,0)/students.length
@@ -147,8 +156,8 @@ let resemp=employees.filter(employeeObj=>employeeObj.department==="IT")
 console.log(resemp)
 
 //map
-let resemp11=employees.map(employeeObj=>{employeeObj.netSalary=employeeObj.salary+employeeObj.salary*0.1; return employeeObj})
-console.log(resemp11)
+let resemp1=employees.map(employeeObj=>{employeeObj.netSalary=employeeObj.salary+employeeObj.salary*0.1; return employeeObj})
+console.log(resemp1)
 
 //reduce
 let resemp2=employees.reduce((acc,elementObj)=>acc+elementObj.salary,0)
