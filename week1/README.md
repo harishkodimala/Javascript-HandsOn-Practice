@@ -4,7 +4,7 @@ This week focused on learning the basics of JavaScript and building a strong fou
 
 ---
 
-## 📚 Topics Covered
+##Topics Covered
 
 - Operators
 - Control Statements
@@ -14,7 +14,7 @@ This week focused on learning the basics of JavaScript and building a strong fou
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```txt
 week1/
@@ -28,7 +28,7 @@ week1/
 
 ---
 
-## 🎯 Learning Outcomes
+## Learning Outcomes
 
 By the end of this week, I learned:
 
@@ -40,7 +40,7 @@ By the end of this week, I learned:
 
 ---
 
-## 🚀 Key Highlights
+## Key Highlights
 
 - Practiced JavaScript fundamentals
 - Improved logical thinking skills
@@ -49,7 +49,7 @@ By the end of this week, I learned:
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Add ES6 array methods
 - Improve file naming consistency
@@ -58,6 +58,6 @@ By the end of this week, I learned:
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Harish Kodimala**
